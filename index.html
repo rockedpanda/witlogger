@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>体重记录</title>
+	<link rel="stylesheet" type="text/css" href="css/weui.min.css" />
+	<style type="text/css">
+	.rt{
+		margin-left: 3em;
+	}
+	</style>
+</head>
+<body ontouchstart="">
+	<div class="container" id="container">
+	<div class="page home js_show">
+		<div class="page__hd">
+			<h1 class="page__title">体重记录</h1>
+		</div>
+		<div class="page__bd page__bd_spacing">
+			<div class="weui-cells__title">输入新体重</div>
+            <div class="weui-cells">
+	            <div class="weui-cell weui-cell_vcode">
+	                <div class="weui-cell__bd">
+	                    <input id="newWeight" class="weui-input" type="number" placeholder="请输入">
+	                </div>
+	                <div class="weui-cell__ft">
+	                    <a href="javascript:;" id="weightInput" class="weui-vcode-btn">确定</a>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="weui-cells__title">历史信息</div>
+	        <div class="weui-cells" id="weightList">
+	                <div class="weui-cell">
+		                <p>2016.10.06 17:00   62.0kg</p>
+	                </div>
+	                <div class="weui-cell">
+		                <p>2016.10.06 17:00   62.0kg</p>
+	                </div>
+	                <div class="weui-cell">
+		                <p>2016.10.06 17:00   62.0kg</p>
+	                </div>
+	                <div class="weui-cell">
+		                <p>2016.10.06 17:00   62.0kg</p>
+	                </div>
+	                <div class="weui-cell">
+		                <p>2016.10.06 17:00   62.0kg</p>
+	                </div>
+	        </div>
+	        
+		</div>
+		<div class="page__ft j_bottom">
+			<a href="#container">回到顶部</a>
+		</div>
+	</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
